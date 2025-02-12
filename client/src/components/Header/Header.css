@@ -1,0 +1,23 @@
+.header {
+  width: 100vw;
+  height: 150px;
+  /* background-image: url("../../../public/header02.jpg"); */
+  /* background-size: cover; */
+  display: flex;
+  background-color: #010101;
+  align-items: center;
+  justify-content: space-between;
+  padding: 36px;
+}
+
+.header img {
+  height: 120px;
+  width: auto;
+}
+
+.link-header {
+  font-family: var(--primary-font);
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+}

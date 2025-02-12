@@ -1,0 +1,77 @@
+.addfilm {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  justify-content: center;
+  text-align: center;
+  background-image: url("../../../public/background.jpg");
+  background-size: cover;
+  align-items: center;
+  gap: 36px;
+}
+
+.addfilm h1 {
+  font-family: var(--primary-font);
+  color: rgb(230, 156, 52);
+  font-size: 62px;
+  font-weight: 600;
+}
+
+.addfilm form {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 36px;
+}
+.addfilm section {
+  display: flex;
+  gap: 20px;
+  width: 700px;
+}
+
+.addfilm form input {
+  height: 50px;
+  width: 350px;
+  outline: none;
+  border-color: #272727;
+  border-width: 1.8px;
+  border-radius: 4px;
+  border-style: solid;
+  padding: 12px;
+}
+
+.addfilm form textarea {
+  height: 50px;
+  width: 350px;
+  outline: none;
+  border-color: #272727;
+  border-width: 1.8px;
+  border-radius: 4px;
+  border-style: solid;
+  padding: 12px;
+  width: 450px;
+  height: 100px;
+}
+
+.addfilm form button {
+  width: 180px;
+  height: 40px;
+  outline: none;
+  border: none;
+  background-color: #272727;
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 24px;
+  padding-RIGHT: 10px;
+  color: white;
+}
+
+.addfilm form button:hover {
+  cursor: pointer;
+}

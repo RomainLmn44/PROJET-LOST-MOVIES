@@ -1,0 +1,28 @@
+.burger {
+  color: white;
+  z-index: 3;
+}
+
+.burger ul {
+  gap: 16px;
+  width: 300px;
+  height: 100vh;
+  position: absolute;
+  background-color: #b9b9b9dc;
+  padding: 20px;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 51px;
+  position: fixed;
+  left: 0;
+  font-family: var(--primary-font);
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.burger ul a {
+  color: rgb(16, 16, 16);
+}

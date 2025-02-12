@@ -1,0 +1,76 @@
+.connexion {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  justify-content: center;
+  text-align: center;
+  background-image: url("../../../public/background.jpg");
+  background-size: cover;
+}
+
+.connexion h1 {
+  font-family: var(--primary-font);
+  color: rgb(230, 156, 52);
+  font-size: 62px;
+  font-weight: 600;
+}
+
+.connexion form {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 36px;
+  margin: 48px 0;
+}
+
+.connexion form input {
+  height: 50px;
+  width: 350px;
+  outline: none;
+  border-color: #272727;
+  border-width: 1.8px;
+  border-radius: 4px;
+  border-style: solid;
+  padding: 12px;
+}
+
+.form-group {
+  display: flex;
+  gap: 14px;
+  color: rgb(0, 0, 0);
+}
+
+.connexion form button {
+  width: 180px;
+  height: 40px;
+  outline: none;
+  border: none;
+  background-color: #272727;
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 24px;
+  padding-RIGHT: 10px;
+  color: white;
+}
+
+.connexion form button:hover {
+  cursor: pointer;
+}
+
+.connexion p {
+  font-family: var(--secondary-font);
+
+  color: #272727;
+  font-size: 36px;
+}
+
+.link {
+  color: rgb(230, 156, 52);
+  text-decoration: none;
+}

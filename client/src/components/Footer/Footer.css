@@ -1,0 +1,17 @@
+.footer {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #010101;
+  /* background-image: url("../../../public/header02.jpg");
+  background-size: cover; */
+}
+
+.footer p {
+  font-family: var(--primary-font);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
