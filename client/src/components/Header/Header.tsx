@@ -6,7 +6,10 @@ function Header() {
   return (
     <section className="header">
       <Burger />
-      <img src="LOGO.png" alt="LOST MOVIES LOGO" />
+      <Link to="/discover">
+        <img src="LOGO.png" alt="LOST MOVIES LOGO" />
+      </Link>
+
       <Link className="link-header" to="/connexion">
         Connexion
       </Link>

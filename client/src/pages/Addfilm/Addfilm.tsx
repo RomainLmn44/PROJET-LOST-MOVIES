@@ -92,7 +92,7 @@ function Addfilm() {
       <h1>Partage-nous un film !</h1>
       <form onSubmit={handleSubmit}>
         <section>
-          <label htmlFor="title">/ Titre :</label>
+          <label htmlFor="title">Titre :</label>
           <input
             type="text"
             id="title"
@@ -103,7 +103,7 @@ function Addfilm() {
           />
         </section>
         <section>
-          <label htmlFor="year">/ Année :</label>
+          <label htmlFor="year">Année :</label>
           <input
             type="number"
             id="year"
@@ -114,7 +114,7 @@ function Addfilm() {
           />
         </section>
         <section>
-          <label htmlFor="style">/ Style :</label>
+          <label htmlFor="style">Style :</label>
           <input
             type="text"
             id="style"
@@ -137,7 +137,7 @@ function Addfilm() {
           </datalist>
         </section>
         <section>
-          <label htmlFor="description">/ Description :</label>
+          <label htmlFor="description">Description :</label>
           <textarea
             id="description"
             name="description"

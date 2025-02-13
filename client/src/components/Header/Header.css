@@ -11,8 +11,9 @@
 }
 
 .header img {
-  height: 120px;
+  height: 140px;
   width: auto;
+  margin-top: 15px;
 }
 
 .link-header {
