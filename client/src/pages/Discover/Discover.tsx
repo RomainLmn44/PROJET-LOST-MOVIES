@@ -1,23 +1,37 @@
+import { useEffect, useState } from "react";
 import "./Discover.css";
+import CardFilms from "../../components/CardFilms/CardFilms";
+import type { FilmsI } from "../../types/typeDiscover";
 
 function Discover() {
+  const [films, setFilms] = useState<null | FilmsI[]>(null);
+
+  console.warn(films);
+
+  useEffect(() => {
+    fetch(`${import.meta.env.VITE_API_URL}/api/films`)
+      .then((res) => res.json())
+      .then((data) => {
+        setFilms(data);
+      })
+      .catch((err) => console.error(err));
+  }, []);
+
   return (
-    <section className="discover">
-      <div className="card-film">
-        <img src="manfromearth.jpg" alt="affiche film" />
-        <section className="text-card">
-          <h2>Man from earth</h2>
-          <p>2007</p>
-          <p>Science Fiction</p>
-          <p className="card-description">
-            Un professeur d'université révèle à ses collègues qu'il est en
-            réalité un homme immortel vivant depuis plus de 14 000 ans. Une
-            conversation captivante où la science et la philosophie se
-            mélangent.
-          </p>
-        </section>
-      </div>
-    </section>
+    <>
+      {films?.map((el) => {
+        return (
+          <CardFilms
+            key={el.id}
+            picture={el.picture}
+            description={el.description}
+            year={el.year}
+            style={el.style}
+            title={el.title}
+          />
+        );
+      })}
+    </>
   );
 }
 

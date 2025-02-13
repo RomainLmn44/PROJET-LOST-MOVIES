@@ -4,6 +4,9 @@ import express from "express";
 
 const app = express();
 
+app.use(express.json()); // 👈 Obligatoire pour que Express comprenne le JSON
+app.use(express.urlencoded({ extended: true }));
+
 // Configure it
 
 /* ************************************************************************* */

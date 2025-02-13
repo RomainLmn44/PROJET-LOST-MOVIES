@@ -1,0 +1,30 @@
+
+
+GET HTTP://localhost:3310/api/films 
+
+
+###
+
+POST HTTP://localhost:3310/api/films HTTP/1.1
+content-type: application/json
+
+{
+  "title": "Inception",
+  "year": 2010,
+  "style": "Sci-Fi",
+  "description": "Un film sur les rêves",
+  "picture": "image.jpg"
+  
+  
+  
+}
+
+###
+
+POST HTTP://localhost:3310/api/upload HTTP/1.1
+content-type: application/json
+
+{
+  "picture" : "image.jpg"
+}
+

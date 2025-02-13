@@ -1,4 +1,4 @@
-/* .discover {
+.discover {
   display: flex;
   flex-direction: column;
   padding: 100px;
@@ -13,8 +13,9 @@
   display: flex;
   justify-content: center;
   width: 800px;
-  gap: 16px;
+  gap: 24px;
   align-items: center;
+  margin-left: 36px;
 }
 
 .text-card {
@@ -26,6 +27,8 @@
 .card-film img {
   height: 300px;
   border-radius: 10px;
+  width: 225px;
+  object-fit: contain;
 }
 
 .card-film h2 {
@@ -47,4 +50,4 @@
   font-size: 28px;
   font-weight: 300;
   margin-top: 14px;
-} */
+}

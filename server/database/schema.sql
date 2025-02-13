@@ -13,7 +13,7 @@ create table film (
   year int not null,
   style varchar(100) not null,
   description varchar(300) not null,
-  picture varchar(255) not null
+  picture varchar(255) default '/assets/images/default.jpg'
 );
 
 create table favoris (
@@ -58,7 +58,12 @@ VALUES
 
   (10, "Enemy", "2013", "Thriller/Psychologique", "Un professeur découvre un homme identique à lui dans un film et devient obsédé par lui. Ce thriller troublant et symbolique, signé Denis Villeneuve, est un véritable casse-tête psychologique.", '/assets/images/enemy.jpg'),  
 
-  (11, "The Autopsy of Jane Doe", "2016", "Horreur/Mystère", "Un père et son fils médecins légistes sont confrontés à des phénomènes surnaturels terrifiants lorsqu'ils tentent de découvrir la cause du décès d'une femme inconnue.", '/assets/images/autopsyofjanedoe.jpg');  
+  (11, "The Autopsy of Jane Doe", "2016", "Horreur/Mystère", "Un père et son fils médecins légistes sont confrontés à des phénomènes surnaturels terrifiants lorsqu'ils tentent de découvrir la cause du décès d'une femme inconnue.", '/assets/images/autopsyofjanedoe.jpg');
+
+  
+
+
+
 
 
 

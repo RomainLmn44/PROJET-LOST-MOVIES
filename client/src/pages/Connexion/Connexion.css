@@ -10,7 +10,7 @@
 
 .connexion h1 {
   font-family: var(--primary-font);
-  color: rgb(230, 156, 52);
+  color: rgb(34 143 167);
   font-size: 62px;
   font-weight: 600;
 }
@@ -71,6 +71,6 @@
 }
 
 .link {
-  color: rgb(230, 156, 52);
+  color: rgb(34 143 167);
   text-decoration: none;
 }
